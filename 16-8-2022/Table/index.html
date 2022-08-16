@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Table Data filter</title>
+</head>
+
+<body>
+    <div class="container">
+    <h1>Table Data filter</h1>
+    <input type="text" id="search-field-input" placeholder="Search here" onkeydown="searchFun()">
+    <input type="button" value="search" onclick="getData()"><br>
+    <table id="user-table" class="center">
+        <thead>
+            <th>FirstName</th>
+            <th>E-mail</th>
+            <th>Mobile No</th>
+            <th>City</th>
+        </thead>
+    </table>
+    <input type="button" value="Add User" id="model" class="btn-primary"><br>
+    
+    <div class="model-wrapper">
+        <div class="model-container">
+            <button class="close">&times;</button>
+            <h2>Add User Data</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores odit assumenda? Aperiam tenetur tempora dolore, consequatur doloremque exercitationem corporis nemo deserunt atque repellat omnis tempore accusamus? Numquam, magnam ullam.</p>
+            <div class="action">
+                <button class="btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+   </div>
+    <script src="assets/JS/script.js"></script>
+</body>
+
+</html>
